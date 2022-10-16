@@ -1,0 +1,7 @@
+mov a 0
+mov b 2 
+add a b
+cpy a result
+dump a
+mov b 254
+jlt 1

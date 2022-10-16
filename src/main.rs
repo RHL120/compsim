@@ -27,5 +27,5 @@ fn main() {
         }
         _ => (),
     };
-    println!("{:#?}", processor.stack);
+    //println!("{:#?}", processor.stack);
 }

@@ -1,0 +1,9 @@
+mov a 0
+mov b 1
+add a b
+cpy a result
+mov b 128
+jeq 255
+cpy b a
+dump a
+jmp 2

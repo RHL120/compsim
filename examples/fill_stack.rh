@@ -1,0 +1,9 @@
+mov a 255
+lta a a
+mov b 1
+sub a b
+dump result
+cpy a result
+mov b 0
+jgt 1
+jlt 1
